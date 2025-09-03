@@ -6,7 +6,7 @@
 
 
 body {
-  height: 100vh;
+  height: 100%;
   background-color:#9091a5ef ;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
@@ -19,6 +19,7 @@ body {
 
 .calculator {
   width: 320px;
+  height: 600px
   background-color: rgba(174, 192, 194, 0.957);
   border-radius: 40px;
   padding: 30px;

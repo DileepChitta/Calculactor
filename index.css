@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  height: 100vh;
+  background-color:#9091a5ef ;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+
+
+.calculator {
+  width: 320px;
+  background-color: rgba(174, 192, 194, 0.957);
+  border-radius: 40px;
+  padding: 30px;
+  margin: 40px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.calculator:hover {
+  transform: scale(1.02);
+}
+
+
+#display {
+  height: 60px;
+  font-size: 2rem;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding-right: 10px;
+  background-color: rgb(145, 205, 41);
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+}
+
+
+.buttons .d-flex {
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+
+button {
+  font-size: 1.2rem;
+  height: 60px;
+  border-radius: 12px !important;
+  border: none;
+  transition: background-color 0.2s ease;
+}
+
+
+button:hover {
+  filter: brightness(90%);
+  cursor: pointer;
+}
+
+
+.btn-warning {
+  background-color: #ffca2c;
+  color: #000;
+  font-weight: bold;
+}
+
+
+.btn-success {
+  background-color: #40c55f;
+  color: white;
+  font-weight: bold;
+}
+
+
+.btn-danger {
+  background-color:  rgb(182, 45, 17);
+  color: white;
+  font-weight: bold;
+}
+
+
+.btn-secondary {
+  background-color: rgb(204, 214, 213);
+  color: white;
+}
+
+
+.btn-light {
+  background-color: rgba(245, 239, 236, 0.895);
+  color: #000;
+}
+
+
+@media (max-width: 400px) {
+  .calculator {
+    width: 95%;
+    padding: 15px;
+  }
+
+  button {
+    height: 55px;
+    width: 40px;
+    font-size: 1.1rem;
+  }
+
+  #display {
+    font-size: 1.4rem;
+    height: 50px;
+  }
+}

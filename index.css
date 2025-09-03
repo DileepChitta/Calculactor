@@ -19,7 +19,7 @@ body {
 
 .calculator {
   width: 320px;
-  height: 600px
+  height: 600px;
   background-color: rgba(174, 192, 194, 0.957);
   border-radius: 40px;
   padding: 30px;
